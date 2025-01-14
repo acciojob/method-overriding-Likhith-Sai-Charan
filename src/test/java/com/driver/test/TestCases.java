@@ -1,8 +1,5 @@
 package com.driver.test;
 
-import com.driver.A;
-import com.driver.B;
-
 public class TestCases {
     public static void main(String[] args) {
         B obj = new B();
