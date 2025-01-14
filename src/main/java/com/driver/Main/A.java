@@ -1,4 +1,4 @@
-package com.driver;
+package com.driver.Main;
 //Task 1:
 //create a class A, with a method named meth having returning a string
 //"Invoking method from class A"

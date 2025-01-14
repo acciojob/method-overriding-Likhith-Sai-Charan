@@ -1,4 +1,4 @@
-package com.driver.test;
+package com.driver.Main.test;
 
 public class B extends A{
     public String meth() {

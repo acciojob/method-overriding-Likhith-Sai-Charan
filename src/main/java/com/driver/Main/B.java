@@ -1,4 +1,4 @@
-package com.driver;
+package com.driver.Main;
 //Task 2:
 //create a class B which extends class A
 public class B extends A {

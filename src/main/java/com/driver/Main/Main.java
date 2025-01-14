@@ -1,4 +1,4 @@
-package com.driver;
+package com.driver.Main;
 
 // Main class to demonstrate the tasks
 public class Main {

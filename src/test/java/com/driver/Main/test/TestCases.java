@@ -1,4 +1,4 @@
-package com.driver.test;
+package com.driver.Main.test;
 
 public class TestCases {
     public static void main(String[] args) {
