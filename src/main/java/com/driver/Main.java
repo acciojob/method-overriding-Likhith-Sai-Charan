@@ -13,7 +13,7 @@ class B extends A {
     @Override
     //Task 4:Now override methode meth of class A in class B, which returns the following string "Method is overridden in Extendend class B"
     public String meth() {
-        return "Method is overridden in Extended class B";
+        return "Method is overridden in Extendend class B";
     }
 }
 // Main class to demonstrate the tasks
@@ -26,7 +26,6 @@ public class Main {
         //output: Invoking method from class A
         //Task 5:call this overridden method from obj of class B
         B obj=new B();
-        System.out.println(new A().meth());
         System.out.println(obj.meth());
     }
 }
