@@ -8,6 +8,7 @@ public class Main {
        // System.out.println(obj.meth());
         //output: Invoking method from class A
         //Task 5:call this overridden method from obj of class B
+
         B obj=new B();
         System.out.println(obj.meth());
     }
