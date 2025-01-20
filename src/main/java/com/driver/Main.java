@@ -1,15 +1,27 @@
 package com.driver;
-// Main class to demonstrate the tasks
-public class Main {
-    public static void main(String[] args) {
-       //Task 3:
-        //create object of class B and call method meth of class A with it
-        // B obj=new B();
-       // System.out.println(obj.meth());
-        //output: Invoking method from class A
-        //Task 5:call this overridden method from obj of class B
 
-        B obj=new B();
-        System.out.println(obj.meth());
+
+public class Main {
+
+    public static class A{
+        public String meth(){
+            return "Invoking method from class A";
+        }
     }
+
+    public static class B extends A{
+        //    @Override
+        public String meth() {
+            return "Method is overridden in Extendend class B";
+        }
+    }
+
+    public static void main(String[] args) {
+        B obj = new B();
+
+        obj.meth();
+        B obj1 = new B();
+        obj1.meth();
+    }
+
 }
